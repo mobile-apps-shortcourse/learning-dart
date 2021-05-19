@@ -1,0 +1,11 @@
+{
+  "data": [
+    {
+      "name": "Sushi Rolls",
+      "category": "Salmon category",
+      "ratings": 4.5
+    }
+  ],
+  "status": "ok",
+  "error": null
+}
