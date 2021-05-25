@@ -3,7 +3,7 @@
 /// Created Date: Tuesday, May 25th 2021, 4:41:01 am
 /// Author: Dennis Bilson <codelbas.quabynah@gmail.com>
 /// -----
-/// Last Modified: Tuesday, May 25th 2021 3:20:30 pm
+/// Last Modified: Tuesday, May 25th 2021 3:29:28 pm
 /// Modified By: Dennis Bilson <codelbas.quabynah@gmail.com>
 /// -----
 /// Copyright (c) 2021 Quabynah Codelabs LLC
@@ -68,6 +68,7 @@
 ///
 ///
 /// `abstract classes`
+/// ref -> https://medium.com/jay-tillu/abstract-class-and-abstract-methods-in-dart-4630f1e39f64
 /// This is a class that can’t be instantiated. It is prefixed with the `abstract`
 /// modifier. Abstract classes are useful for defining interfaces, often with
 /// some implementation. If you want your abstract class to appear to be
@@ -140,12 +141,3 @@
 /// }
 /// ```
 
-class BaseUser {
-  final String firstName;
-  final String lastName;
-
-  // factory instance
-  BaseUser.withDefaults()
-      : firstName = 'Quabynah',
-        lastName = 'Bilson';
-}
