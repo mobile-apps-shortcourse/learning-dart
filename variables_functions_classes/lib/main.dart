@@ -1,3 +1,13 @@
+/// File: main.dart
+/// Project: variables_functions_classes
+/// Created Date: Thursday, May 20th 2021, 3:36:24 pm
+/// Author: Dennis Bilson <codelbas.quabynah@gmail.com>
+/// -----
+/// Last Modified: Tuesday, May 25th 2021 4:41:16 am
+/// Modified By: Dennis Bilson <codelbas.quabynah@gmail.com>
+/// -----
+/// Copyright (c) 2021 Quabynah Codelabs LLC
+
 // summation
 int sumOf(int num1, int num2) => num1 + num2;
 
